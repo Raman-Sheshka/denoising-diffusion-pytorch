@@ -26,7 +26,9 @@ setup(
     'scipy',
     'torch>=2.0',
     'torchvision',
-    'tqdm'
+    'tqdm',
+    'pyyaml',
+    'pydantic'
   ],
   classifiers=[
     'Development Status :: 4 - Beta',
