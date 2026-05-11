@@ -5,12 +5,12 @@ unet_config:
   flash_attn: true
 
 diffusion:
-  image_size: 128
+  image_size: 32
   timesteps: 1000           # number of steps
   sampling_timesteps: 250    # number of sampling timesteps
 
 trainer:
-  folder: 'path/to/your/images'
+  folder: "/scratch/work/sheshkr1/data/cifar10"
   train_batch_size: 32
   train_lr: 8e-5
   train_num_steps: 700000        # total training steps

@@ -9,6 +9,7 @@ MODULE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = MODULE_DIR.parent
 DEFAULT_CONFIG_PATH = PROJECT_DIR / "settings.yml"
 
+
 # RESULTS_DIR = PROJECT_DIR / "results"
 # RESULTS_DIR.mkdir(exist_ok = True)
 
